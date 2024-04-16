@@ -22,6 +22,7 @@ const carouselItems = [
     {
         image: Banner03,
         title: 'Vamos combater as *mudanças climáticas*',
+        secondTitle: 'Descarte seu *resíduo eletrôn',
         subtitle: '*Promova a conscientização* na sua instituição impulsione a redução da crise climática!',
         buttonTitle: 'Conheça o site',
         infoBanner1: 'Destinamos material reciclável para *reinserção no mercado produtivo.*',

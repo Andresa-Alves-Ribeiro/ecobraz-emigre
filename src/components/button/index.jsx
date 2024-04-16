@@ -2,7 +2,7 @@ import { Button } from "react-bootstrap";
 import PropTypes from "prop-types";
 
 
-export default function ButtonComponent({ title }) {
+export default function ButtonComponent({ title, secondTitle }) {
     return (
         <div className="buttons-banner">
             <style type="text/css">
@@ -26,11 +26,12 @@ export default function ButtonComponent({ title }) {
 
             <Button id="dropdown-basic-button" variant="list-banner-first">{title}</Button>
 
-            <Button id="dropdown-basic-button" variant="list-banner-second">Agende sua coleta</Button>
+            <Button id="dropdown-basic-button" variant="list-banner-second">{secondTitle}</Button>
         </div>
     )
 }
 
 ButtonComponent.propTypes = {
     title: PropTypes.string.isRequired,
+    secondTitle: PropTypes.string.isRequired,
 };
