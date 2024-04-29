@@ -2,7 +2,7 @@ import Banner01 from "../../assets/banner01/back.png";
 import Banner02 from "../../assets/banner02/banner-02.png";
 import Banner03 from "../../assets/banner03/banner-03.png";
 
-const carouselItems = [
+const carouselBannerData = [
     {
         image: Banner01,
         title: 'Descarte seu *resíduo eletrônico*',
@@ -22,6 +22,7 @@ const carouselItems = [
     {
         image: Banner03,
         title: 'Vamos combater as *mudanças climáticas*',
+        secondTitle: 'Descarte seu *resíduo eletrôn',
         subtitle: '*Promova a conscientização* na sua instituição impulsione a redução da crise climática!',
         buttonTitle: 'Conheça o site',
         infoBanner1: 'Destinamos material reciclável para *reinserção no mercado produtivo.*',
@@ -29,4 +30,4 @@ const carouselItems = [
     },
 ];
 
-export default carouselItems;
+export default carouselBannerData;

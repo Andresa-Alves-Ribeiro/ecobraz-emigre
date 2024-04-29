@@ -2,9 +2,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import BannerTextComponent from "../banner-texts";
 import ButtonComponent from "../button";
 import Header from '../header';
-import carouselItems from './carouselData';
+import { NotePencil, Recycle } from '@phosphor-icons/react';
+import carouselBannerData from './carouselBannerData';
 
-function CarrouselComponent() {
+export default function CarrouselBannerComponent() {
     const renderTextWithBold = (text) => {
         const parts = text.split('*');
         return parts.map((part, index) => {
@@ -17,7 +18,7 @@ function CarrouselComponent() {
             <Header />
 
             <Carousel className="carousel">
-                {carouselItems.map((item, index) => (
+                {carouselBannerData.map((item, index) => (
                     <Carousel.Item key={index}>
                         <img
                             className="d-block w-100"
@@ -35,7 +36,7 @@ function CarrouselComponent() {
                             </div>
 
                             <div>
-                                <ButtonComponent title={item.buttonTitle} />
+                                <ButtonComponent title={item.buttonTitle} secondTitle="Agende sua coleta" />
                             </div>
 
                             <div>
@@ -45,8 +46,12 @@ function CarrouselComponent() {
                     </Carousel.Item>
                 ))}
             </Carousel>
+
+            <div className='list-paragraphs'>
+                <p>Descarte com quem é referência, descarte com a <span>ECOBRAZ EMIGRE</span></p>
+                <span><Recycle size={22} color="#2cb476" className='list-paragraphs-icon' />Gestão eficiente de seus resíduos</span>
+                <span><NotePencil size={22} color="#2cb476" className='list-paragraphs-icon' />Regulamentos e normas ambientais</span>
+            </div>
         </div>
     );
 }
-
-export default CarrouselComponent;
