@@ -8,7 +8,7 @@ export default function RecicleList() {
                 <div className="header-recicle">
                     <h3>Lista de materiais que <span>recebemos</span></h3>
 
-                    <button><Clock size={20} /> Agende sua coleta</button>
+                    <button className="button-recicle"><Clock size={20} /> Agende sua coleta</button>
                 </div>
 
                 <div className="image-recicle">

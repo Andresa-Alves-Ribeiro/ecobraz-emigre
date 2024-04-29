@@ -1,9 +1,13 @@
 import './App.css'
 import About from './components/about'
 import Banner from './components/banner'
+import CookiesConsent from './components/cookies-consent'
 import Counter from './components/counter'
+import Footer from './components/footer'
+import News from './components/news'
 import RecicleList from './components/recicle-list'
 import RoadInfo from './components/roadInfo'
+import Testimonials from './components/testimonials'
 
 function App() {
   return (
@@ -21,6 +25,12 @@ function App() {
       <About />
       <RoadInfo />
       <RecicleList />
+      <Testimonials />
+      <News />
+
+      <Footer />
+
+      <CookiesConsent />
     </div>
   )
 }

@@ -2,10 +2,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import BannerTextComponent from "../banner-texts";
 import ButtonComponent from "../button";
 import Header from '../header';
-import carouselItems from './carouselData';
 import { NotePencil, Recycle } from '@phosphor-icons/react';
+import carouselBannerData from './carouselBannerData';
 
-export default function CarrouselComponent() {
+export default function CarrouselBannerComponent() {
     const renderTextWithBold = (text) => {
         const parts = text.split('*');
         return parts.map((part, index) => {
@@ -18,7 +18,7 @@ export default function CarrouselComponent() {
             <Header />
 
             <Carousel className="carousel">
-                {carouselItems.map((item, index) => (
+                {carouselBannerData.map((item, index) => (
                     <Carousel.Item key={index}>
                         <img
                             className="d-block w-100"

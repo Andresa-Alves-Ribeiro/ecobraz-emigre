@@ -1,4 +1,4 @@
-import CarrouselComponent from "../carrousel";
+import CarrouselComponent from "../carrouselBanner";
 
 export default function Banner() {
     return (

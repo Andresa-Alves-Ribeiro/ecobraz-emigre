@@ -5,7 +5,7 @@ export default function About() {
         <div className="about">
             <div className="left-side-about">
                 <p>Nossos processos são<span> 100% documentados e em <strong>total conformidade</strong><strong> com a legislação ambiental</strong>.</span></p>
-                <p><span>Clique aqui</span> e confira o vídeo.</p>
+                <p><a href="#video">Clique aqui</a> e confira o vídeo.</p>
             </div>
 
             <div className="right-side-about">
