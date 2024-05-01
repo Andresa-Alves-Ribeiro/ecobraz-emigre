@@ -699,7 +699,8 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 6vh 0 6vh 0;
+    margin: auto;
+    padding: 5vh 0 5vh 0;
 }
 
 .subtitle-manifesto {
@@ -794,7 +795,7 @@ hr {
 .infos-footer {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 85%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
@@ -856,10 +857,11 @@ hr {
 
 .social-certifications {
     display: flex;
-    justify-content: space-evenly;
-    width: 90%;
+    justify-content: space-between;
+    width: 85%;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    margin: auto;
 }
 
 .social-medias {
@@ -1091,6 +1093,43 @@ hr {
             margin-top: 26vh;
         }
     }
+
+    .div-recicle,
+    .centered-testimonials,
+    .manifesto {
+        width: 70%;
+    }
+
+    .carousel-news-container {
+        width: 78%;
+        height: 100%;
+        padding: 3vh;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    .carousel-control-prev {
+        margin: auto;
+        margin-left: 10vw;
+    }
+    
+    .carousel-control-next {
+        margin: auto;
+        margin-right: 10vw;
+    }
+
+    .infos-footer {
+        width: 74%;
+    }
+
+    .social-certifications {
+        width: 75%;
+        justify-content: left;
+        gap: 6rem;
+
+    }
 }
 
 @media screen and (min-width: 1680px) and (max-width: 1919px) {
@@ -1140,6 +1179,42 @@ hr {
             left: 40%;
             margin-top: 24vh;
         }
+    }
+
+    .div-recicle,
+    .centered-testimonials,
+    .manifesto {
+        width: 62%;
+    }
+
+    .carousel-news-container {
+        width: 68%;
+        height: 100%;
+        padding: 3vh;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    .carousel-control-prev {
+        margin: auto;
+        margin-left: 15vw;
+    }
+    
+    .carousel-control-next {
+        margin: auto;
+        margin-right: 15vw;
+    }
+
+    .infos-footer {
+        width: 65%;
+    }
+
+    .social-certifications {
+        width: 65%;
+        justify-content: left;
+        gap: 6rem;
     }
 }
 
@@ -1202,5 +1277,41 @@ hr {
             left: 30%;
             margin-top: 28vh;
         }
+    }
+
+    .div-recicle,
+    .centered-testimonials,
+    .manifesto {
+        width: 46%;
+    }
+
+    .carousel-news-container {
+        width: 50%;
+        height: 100%;
+        padding: 3vh;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    .carousel-control-prev {
+        margin: auto;
+        margin-left: 24vw;
+    }
+    
+    .carousel-control-next {
+        margin: auto;
+        margin-right: 24vw;
+    }
+
+    .infos-footer {
+        width: 49%;
+    }
+
+    .social-certifications {
+        width: 49%;
+        justify-content: left;
+        gap: 6rem;
     }
 }
