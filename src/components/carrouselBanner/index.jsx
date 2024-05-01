@@ -17,7 +17,7 @@ export default function CarrouselBannerComponent() {
         <div className="carousel-container">
             <Header />
 
-            <Carousel className="carousel">
+            <Carousel className="carousel" controls={false} indicators={false}>
                 {carouselBannerData.map((item, index) => (
                     <Carousel.Item key={index}>
                         <img
