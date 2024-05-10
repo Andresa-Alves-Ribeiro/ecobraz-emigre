@@ -23,7 +23,7 @@ export default function CarrouselBannerComponent() {
                         <img
                             className="d-block w-100"
                             src={item.image}
-                            alt="First slide"
+                            alt="slide"
                         />
                         <Carousel.Caption>
                             <div className='banner-texts'>
@@ -39,7 +39,7 @@ export default function CarrouselBannerComponent() {
                                 <ButtonComponent title={item.buttonTitle} secondTitle="Agende sua coleta" />
                             </div>
 
-                            <div>
+                            <div className='carousel-banner-texts'>
                                 <BannerTextComponent altProp={item.title} infoBanner1={renderTextWithBold(item.infoBanner1)} infoBanner2={renderTextWithBold(item.infoBanner2)} />
                             </div>
                         </Carousel.Caption>
