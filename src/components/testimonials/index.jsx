@@ -13,7 +13,7 @@ export default function Testimonials() {
 
                     <div className="google-div-image">
                         <p>Avaliações do</p>
-                        <img src={GoogleLogo} alt="Logo da Google" width={150} height={50} />
+                        <img src={GoogleLogo} alt="Logo da Google" width={150} height={50} className="image-google" />
                     </div>
                 </div>
 

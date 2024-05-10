@@ -47,7 +47,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <h3 className="titles-footer">Endereço</h3>
+                    <h3 className="titles-footer address">Endereço</h3>
 
                     <p className="infos-address">
                         Rua Dona Maria Quedas, 230
